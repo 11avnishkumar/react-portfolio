@@ -60,7 +60,7 @@ export default function Home() {
             <p className='text-md py-2 leading-8 text-grey-800'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius culpa deserunt officia earum amet, dolor quam facilis, vitae natus quos cumque magnam maiores quo voluptas quod tempora accusamus? Veritatis, laudantium.</p>
           </div>
           <div className='lg:flex gap-10'>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:text-white'>
               <Image src={design} width={100} height={100}/>
               <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
               <p className='py-2'>
@@ -75,7 +75,7 @@ export default function Home() {
                 <p className='tex-grey-800 py-1'>Css</p>
                 <p className='tex-grey-800 py-1'>Heroku</p>
             </div>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:text-white'>
               <Image src={code} width={100} height={100}/>
               <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
               <p className='py-2'>
@@ -90,7 +90,7 @@ export default function Home() {
                 <p className='tex-grey-800 py-1'>Css</p>
                 <p className='tex-grey-800 py-1'>Heroku</p>
             </div>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:text-white'>
               <Image src={consulting} width={100} height={100}/>
               <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
               <p className='py-2'>
@@ -109,7 +109,7 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className='text-3xl py-1'>Portfolio</h3>
+            <h3 className='text-3xl py-1 dark:text-cyan-500'>Portfolio</h3>
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
             <div className='basis-1/3 flex-1'>
