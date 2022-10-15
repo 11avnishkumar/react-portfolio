@@ -31,7 +31,7 @@ export default function Home() {
       <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900'>
         <section className='min-h-screen'>
           <nav className='py-10 mb-12 flex justify-between'>
-            <h1 className='text-xl dark:text-white'>Developed</h1>
+            <h1 className='text-xl dark:text-white'>Portfolio</h1>
             <ul className='flex items-center'>
               <li>
                 <BsFillMoonStarsFill className='cursor-pointer text-2xl dark:text-white' onClick={()=>setDarkMode(!darkMode)}/>
@@ -40,7 +40,7 @@ export default function Home() {
             </ul>
           </nav>
           <div className='text-center p-10 dark:text-white'>
-            <h2 className='text-5xl py-2 text-teal-600 front-medium md:text-7xl'>Avnish Kumar</h2>
+            <h2 className='uppercase text-5xl py-2 text-teal-600 front-medium md:text-7xl'>Avnish Kumar</h2>
             <h3 className='text-2xl py-2 md:text-2xl'>Software Engineer &amp; Web Developer</h3>
             <p className='text-md py-5 leading-8 text-grey-800 md:text-xl max-w-xl mx-auto'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti explicabo vel aliquam at, excepturi iure impedit! Rerum quos quisquam vero veritatis nemo totam earum doloremque laboriosam velit, dolorem rem mollitia?</p>
           </div>
@@ -56,7 +56,7 @@ export default function Home() {
         {/*  */}
         <section>
           <div className='dark:text-white'>
-            <h3 className='text-3xl py-1 dark:text-cyan-500'>Services I offer</h3>
+            <h3 className='uppercase text-3xl py-1 dark:text-cyan-500'>Services</h3>
             <p className='text-md py-2 leading-8 text-grey-800'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius culpa deserunt officia earum amet, dolor quam facilis, vitae natus quos cumque magnam maiores quo voluptas quod tempora accusamus? Veritatis, laudantium.</p>
           </div>
           <div className='lg:flex gap-10'>
@@ -109,7 +109,7 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className='text-3xl py-1 dark:text-cyan-500'>Portfolio</h3>
+            <h3 className='uppercase text-3xl py-1 dark:text-cyan-500'>Portfolio</h3>
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
             <div className='basis-1/3 flex-1'>
