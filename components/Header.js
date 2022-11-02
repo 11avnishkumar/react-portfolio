@@ -1,5 +1,6 @@
 import { useState,useEffect } from 'react'
 import {useTheme} from 'next-themes'
+import Link from 'next/link'
 import {BsFillMoonStarsFill,BsFillSunFill} from 'react-icons/bs'
 
 const Header = () => {
@@ -27,7 +28,9 @@ const Header = () => {
         <nav className='py-10 mb-12 flex justify-between'>
             <h1 className='text-xl dark:text-white'>Portfolio</h1>
             <ul className='flex items-center'>
-              <li className='mr-4'>Contacts</li>
+              <li className='mr-4'>
+                  Contacts
+              </li>
               <li>
                 {renderThemeChanger()}
               </li>

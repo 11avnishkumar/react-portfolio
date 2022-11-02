@@ -5,6 +5,7 @@ import deved from "../public/dev-ed-wave.png"
 import Header from '../components/Header';
 import Services from '../components/Services';
 import Portfolio from '../components/Portfolio';
+import Contact from '../components/Contact';
 export default function Home() {
 
   return (
@@ -38,6 +39,7 @@ export default function Home() {
         {/* Services  */}
         <Services/>
         <Portfolio/>
+        <Contact/>
       </main>
     </div>
   )
