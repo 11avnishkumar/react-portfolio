@@ -39,8 +39,8 @@ export default function Home() {
         {/* Services  */}
         <Services/>
         <Portfolio/>
-        <Contact/>
       </main>
+      <Contact/>
     </div>
   )
 }
